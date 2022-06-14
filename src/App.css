@@ -1,38 +1,107 @@
 .App {
-  text-align: center;
+  margin-left: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  width: 840px;;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-div {
+  width:fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  border-collapse: collapse;
+  width: 840px;
+}
+
+.td {
+  align-items: center;
+}
+
+th, td {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #999;
+}
+
+.btn {
+	color: whitesmoke;
+  font-size: large;
+  font-weight: bold;
+	background-color: rgb(112, 112, 112);
+	border: 5px solid transparent;
+	transition: .2s ease;
+	border-radius: 20px;
+  margin: 10px;
+}
+
+.btn:hover {
+	color: whitesmoke;
+	background-color: rgb(51, 50, 50);
+	transform: scale(1.1);
+	border: 5px solid transparent;
+}
+
+.profileImg {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.oscar {
+  width: 35px;
+  height: auto;
+}
+
+.emmy {
+  width: 45px;
+  height: auto;
+}
+
+.btn-imdb {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: bold;
+	background-color: rgb(238, 213, 27);
+	border: 5px solid transparent;
+	transition: .2s ease;
+	border-radius: 20px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-imdb:hover {
+	color: black;
+	background-color: rgb(238, 213, 27);
+	transform: scale(1.1);
+	border: 5px solid transparent;
+}
+
+
+.btn-random-div {
+  width: 840px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-random {
+  color: whitesmoke;
+  font-size: large;
+  font-weight: bold;
+	background-color: rgb(112, 112, 112);
+	border: 5px solid transparent;
+	transition: .2s ease;
+	border-radius: 20px;
+  margin: 10px;
+}
+
+.btn-random:hover {
+	color: whitesmoke;
+	background-color: rgb(51, 50, 50);
+	transform: scale(1.1);
+	border: 5px solid transparent;
 }
